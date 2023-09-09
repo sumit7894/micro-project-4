@@ -1,0 +1,99 @@
+.html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    margin-left: 15px;
+    width: 500px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    /* background-color: red; */
+}
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3B4664;
+    
+}
+.calculator{
+    width: 500px;
+    height: 550px;
+    background-color: #3B4664;
+}
+.display{
+    height: 100px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display-text{
+    
+    letter-spacing: 15px;
+    width: 500px;
+    height: 55px;
+    font-family: 'Segoe Ui';
+    font-size: 55px;
+    font-weight: 700;
+    /* background-color: red; */
+    text-align: right;
+    color: white;
+}
+.keypad{
+    height: 400px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    /* background-color: black; */
+    width: 410px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buttons button{
+    font-weight: 700;
+    font-size: 25px;
+    color: #3B4664;
+    border-radius: 12px;
+    margin: 5px;
+    background-color:#EAE3DB;
+    height: 55px;
+    width: 85px;
+}
+/* RESET button */
+.buttons button:nth-child(17){
+    color: white;
+    background-color: #647299;
+    width: 185px;
+}
+/* EQUAL button */
+.buttons button:nth-child(18){
+    color: white;
+    background: #D13F30;
+    width: 185px;
+}
+/* DEL button */
+.buttons button:nth-child(4){
+    color: white;
+    background-color: #647299;
+}
